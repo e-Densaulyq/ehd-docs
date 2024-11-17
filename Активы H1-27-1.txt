@@ -1,0 +1,57 @@
+
+Активы 
+1	UID Записи	UID	символьный
+2	Составной идентификатор записи в источнике (для проверки уникальности)	identifier	символьный
+3	Область,	RegionId	справочный
+4	Район,	LocalityId	справочный
+5	Организация,	organization	справочный
+6	Направившая область	RegionId	справочный
+7	Направивший район	LocalityId	справочный
+8	Направившая организация	SenderOrganizationId	справочный
+9	Номер актива	Number	текстовый
+10	Дата регистрации	RegDate	Дата и время
+11	Дата принятия врачом	ReceiveDate	Дата и время
+12	Дата получения врачом	DeliveryDate	Дата и время
+13	Дата выполнения	VisitServedMarkDate	Дата и время
+14	Дата начала выполнения	VisitBeginTime	Дата и время
+15	Дата окончания выполнения	VisitEndTime	Дата и время
+16	Дата простановки статуса Выполнен	ExecutionSubmittedDate	Дата и время
+17	Дата принятия врачом	AcceptDate	Дата и время
+18	Uid ФЛ,	PersonUid
+	символьный
+19	Идентификтаор ФЛ (РПН),	PersonRpnId	символьный
+20	ИИН ФЛ (обфусцирован),	IIN	символьный
+21	ФИО ФЛ,	PersonName	справочный
+22	Дата рождения,	PersonBirthDate	Дата и время
+23	Возраст,	PersonAge	числовой
+24	Адрес ФЛ	PersonAddress	справочный
+25	Статус актива	ActiveStatusId	справочный
+26	Статус доставки актива до врача	ActiveDeliveryStatusId	справочный
+27	Направивший врач	SenderDoctorId	справочный
+28	Направившее отделение	SenderDepartmentId	справочный
+29	Принявший врач	ReceiverDoctorId	справочный
+30	Принявшее отделение	ReceiverDepartmentId	справочный
+31	Выполнивший врач	ExecutorDepartmentId	справочный
+32	Выполнившее отделение	ActiveTypeId	справочный
+33	Тип актива	TerritoryServiceId	справочный
+34	Участок	TerritoryServiceNumber	справочный
+35	Номер участка	TerritoryServiceProfileId	числовой
+36	Профиль участка	TerritoryServiceProfileId	справочный
+37	Профиль участка (наименование рус)	TerritoryServiceProfileNameRu	справочный
+38	Профиль участка (наименование каз)	TerritoryServiceProfileNameKz	справочный
+39	Наименование участка (рус)	TerritoryServiceNameRu	справочный
+40	Наименование участка (каз)	TerritoryServiceNameKz	справочный
+41	Диагноз	SickId	справочный
+42	Тип диагноза	SickTypeId	справочный
+43	Вид диагноза	SickStageId	справочный
+44	Характер заболевания	SickCharacterId	справочный
+45	Исход актива	OutcomeId	справочный
+46	Место оказания услуги	AssistancePlaceId	справочный
+47	Дата удаления,	DeleteDate	Дата и время
+48	Дата обновления записи,	LastUpdateDate	Дата и время
+49	Дата события,	EventDate	Дата и время
+50	Массив диагнозов	Sicks	справочный
+51	Год,	Year	Дата и время
+52	Месяц,	Month	Дата и время
+53	Ключ даты (YYYY-MM),	DateKey	Дата и время
+54	Повод обращения	TreatmentReasonId	справочный

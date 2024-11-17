@@ -1,0 +1,66 @@
+Рождение (данные по родам)   H1-06 
+
+0	Системные данные	system
+	Идентификатор rpnID	rpnId
+	ИИН	iin
+	Признак матери	
+1	Общая информация о роженице при регистрации в родильном отделении (родильнице)	motherInformation
+1.1	АД роженицы	bloodPressure
+1.2	Температура тела	bodyTemperature
+1.3	Рост	height
+1.4	Вес	weight
+1.5	Последняя менструация	lastMenstruationDate
+1.6	Первое шевеление плода	firstFetalMovementDate
+1.7	Срок беременности 	pregnancyTerm
+1.8	Окружность живота, см	abdominalCircumference
+1.9	Высота дна матки, см	uterusHeight
+1.10	Количество плодов	Fetal
+1.10.1	Положение плода	fetalPosition
+1.10.2	Позиция и вид плода	fetalView
+1.10.3	Сердцебиение плода	fetalHeartbeat
+1.10.4	Место сердцебиения плода	fetalHeartbeatPlace
+1.10.5	ЧСС плода	fetalHeartRate
+1.10.6	Предлежащая часть	fetalPresentingPart
+1.10.7	Предполагаемый вес плода, гр	estimatedFetalWeight
+2	Сведения о родах 
+	childBirths
+2.1	Дата и время родов	BirthDateTime
+2.2	Место родов	BirthPlace
+2.3	Которые по счету роды	DeliveryNumber
+2.4	Родовая деятельность	laborActivity
+2.5	Период родов	birthPeriod
+2.6	Время схваток	contractionTime
+2.7	Воды отошли	waterBreakingTime
+2.8	Качество вод	waterQuality
+2.9	Количество вод, мл	waterVolume
+2.10	Полное открытие	completeCervixDilation
+2.11	Время полного открытия	cervixDilationTime
+2.12	Начало потуг	pushingStartTime
+3	Данные о ребенке	newbornInfo
+3.1	Ребенок родился (по счету при многоплодной беременности)	childBirthTime
+3.2	Который по счету родившийся ребенок у матери	           childNumber
+3.3	Критерии живорождения	liveBirthCriteria
+3.4	Пол новорожденного	sex
+3.5	Рост при рождении, см	BirthHeight
+3.6	Вес, гр	BirthWeight
+3.7	Окружность головы, см	newbornHeadCircumference
+3.8	Окружность груди, см	ChestCircumference
+3.9	Оценка состояния новорожденного по шкале Апгар	newbornConditionApgarScore
+3.9.1	Оценка по шкале Апгар через 1 минуту	ApgarScore1Min
+3.9.2	Оценка по шкале Апгар через 5 минут	ApgarScore5Min
+3.10	Исход (у ребенка)	OutcomePublicCode
+3.11	Дата исхода ( у ребенка)	OutcomeDate
+3.12	Вид смерти	DeathTypeRelatedToBirth
+3.13	Вскрыт	autopsy
+3.14	Диагноз	icd10
+4	Роды в срок	onTimeBirth
+5	Психопрофилактическая подготовка к родам	psychoProphylacticPreparation
+6	Методы родоразрешения	childbirthMethod
+7	Медикаментозное обезболивание родов (указать каким медикаментом)	painReliefMethod
+8	Осложнения в родах. Экстрагенитальные заболевания	BirthComplicationPublicCode
+9	Операции, пособия в родах (указать какие)	operationsAndInterventions
+10	Общая кровопотеря, мл	totalBloodLoss
+12	Медицинский персонал	medicalStaff
+12.1	Врач, принимавший роды	birthDoctor
+13.2	Неонатолог	neonatologist
+13.3	Акушерка, принимавшая роды	birthMidwife
